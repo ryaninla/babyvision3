@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBC0A0DF2CC98F7400F32528 /* GPUImage in Frameworks */ = {isa = PBXBuildFile; productRef = FBC0A0DE2CC98F7400F32528 /* GPUImage */; };
+		FBC0A0E22CC9901700F32528 /* GPUImage in Frameworks */ = {isa = PBXBuildFile; productRef = FBC0A0E12CC9901700F32528 /* GPUImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBC0A0C12CC98ECF00F32528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC0A0A82CC98ECE00F32528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC0A0AF2CC98ECE00F32528;
+			remoteInfo = BabyVision3;
+		};
+		FBC0A0CB2CC98ECF00F32528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC0A0A82CC98ECE00F32528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC0A0AF2CC98ECE00F32528;
+			remoteInfo = BabyVision3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBC0A0B02CC98ECE00F32528 /* BabyVision3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyVision3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC0A0C02CC98ECF00F32528 /* BabyVision3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyVision3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC0A0CA2CC98ECF00F32528 /* BabyVision3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyVision3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FBC0A0B22CC98ECE00F32528 /* BabyVision3 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BabyVision3;
+			sourceTree = "<group>";
+		};
+		FBC0A0C32CC98ECF00F32528 /* BabyVision3Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BabyVision3Tests;
+			sourceTree = "<group>";
+		};
+		FBC0A0CD2CC98ECF00F32528 /* BabyVision3UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BabyVision3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC0A0AD2CC98ECE00F32528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC0A0DF2CC98F7400F32528 /* GPUImage in Frameworks */,
+				FBC0A0E22CC9901700F32528 /* GPUImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC0A0BD2CC98ECF00F32528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC0A0C72CC98ECF00F32528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBC0A0A72CC98ECE00F32528 = {
+			isa = PBXGroup;
+			children = (
+				FBC0A0B22CC98ECE00F32528 /* BabyVision3 */,
+				FBC0A0C32CC98ECF00F32528 /* BabyVision3Tests */,
+				FBC0A0CD2CC98ECF00F32528 /* BabyVision3UITests */,
+				FBC0A0B12CC98ECE00F32528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC0A0B12CC98ECE00F32528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC0A0B02CC98ECE00F32528 /* BabyVision3.app */,
+				FBC0A0C02CC98ECF00F32528 /* BabyVision3Tests.xctest */,
+				FBC0A0CA2CC98ECF00F32528 /* BabyVision3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC0A0AF2CC98ECE00F32528 /* BabyVision3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC0A0D42CC98ECF00F32528 /* Build configuration list for PBXNativeTarget "BabyVision3" */;
+			buildPhases = (
+				FBC0A0AC2CC98ECE00F32528 /* Sources */,
+				FBC0A0AD2CC98ECE00F32528 /* Frameworks */,
+				FBC0A0AE2CC98ECE00F32528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FBC0A0B22CC98ECE00F32528 /* BabyVision3 */,
+			);
+			name = BabyVision3;
+			packageProductDependencies = (
+				FBC0A0DE2CC98F7400F32528 /* GPUImage */,
+				FBC0A0E12CC9901700F32528 /* GPUImage */,
+			);
+			productName = BabyVision3;
+			productReference = FBC0A0B02CC98ECE00F32528 /* BabyVision3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBC0A0BF2CC98ECF00F32528 /* BabyVision3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC0A0D72CC98ECF00F32528 /* Build configuration list for PBXNativeTarget "BabyVision3Tests" */;
+			buildPhases = (
+				FBC0A0BC2CC98ECF00F32528 /* Sources */,
+				FBC0A0BD2CC98ECF00F32528 /* Frameworks */,
+				FBC0A0BE2CC98ECF00F32528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC0A0C22CC98ECF00F32528 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FBC0A0C32CC98ECF00F32528 /* BabyVision3Tests */,
+			);
+			name = BabyVision3Tests;
+			packageProductDependencies = (
+			);
+			productName = BabyVision3Tests;
+			productReference = FBC0A0C02CC98ECF00F32528 /* BabyVision3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBC0A0C92CC98ECF00F32528 /* BabyVision3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC0A0DA2CC98ECF00F32528 /* Build configuration list for PBXNativeTarget "BabyVision3UITests" */;
+			buildPhases = (
+				FBC0A0C62CC98ECF00F32528 /* Sources */,
+				FBC0A0C72CC98ECF00F32528 /* Frameworks */,
+				FBC0A0C82CC98ECF00F32528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC0A0CC2CC98ECF00F32528 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FBC0A0CD2CC98ECF00F32528 /* BabyVision3UITests */,
+			);
+			name = BabyVision3UITests;
+			packageProductDependencies = (
+			);
+			productName = BabyVision3UITests;
+			productReference = FBC0A0CA2CC98ECF00F32528 /* BabyVision3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC0A0A82CC98ECE00F32528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FBC0A0AF2CC98ECE00F32528 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					FBC0A0BF2CC98ECF00F32528 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FBC0A0AF2CC98ECE00F32528;
+					};
+					FBC0A0C92CC98ECF00F32528 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FBC0A0AF2CC98ECE00F32528;
+					};
+				};
+			};
+			buildConfigurationList = FBC0A0AB2CC98ECE00F32528 /* Build configuration list for PBXProject "BabyVision3" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBC0A0A72CC98ECE00F32528;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FBC0A0E02CC9901700F32528 /* XCLocalSwiftPackageReference "../Dependencies/GPUImage3-main" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FBC0A0B12CC98ECE00F32528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC0A0AF2CC98ECE00F32528 /* BabyVision3 */,
+				FBC0A0BF2CC98ECF00F32528 /* BabyVision3Tests */,
+				FBC0A0C92CC98ECF00F32528 /* BabyVision3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC0A0AE2CC98ECE00F32528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC0A0BE2CC98ECF00F32528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC0A0C82CC98ECF00F32528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC0A0AC2CC98ECE00F32528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC0A0BC2CC98ECF00F32528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC0A0C62CC98ECF00F32528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBC0A0C22CC98ECF00F32528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC0A0AF2CC98ECE00F32528 /* BabyVision3 */;
+			targetProxy = FBC0A0C12CC98ECF00F32528 /* PBXContainerItemProxy */;
+		};
+		FBC0A0CC2CC98ECF00F32528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC0A0AF2CC98ECE00F32528 /* BabyVision3 */;
+			targetProxy = FBC0A0CB2CC98ECF00F32528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FBC0A0D22CC98ECF00F32528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBC0A0D32CC98ECF00F32528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBC0A0D52CC98ECF00F32528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabyVision3/Preview Content\"";
+				DEVELOPMENT_TEAM = 6T4AZ473ZT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "BabyVision needs camera access to simulate infant vision";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "BabyVision needs photo library access to save processed images";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanfaucett.BabyVision3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBC0A0D62CC98ECF00F32528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabyVision3/Preview Content\"";
+				DEVELOPMENT_TEAM = 6T4AZ473ZT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "BabyVision needs camera access to simulate infant vision";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "BabyVision needs photo library access to save processed images";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanfaucett.BabyVision3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBC0A0D82CC98ECF00F32528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T4AZ473ZT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanfaucett.BabyVision3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyVision3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BabyVision3";
+			};
+			name = Debug;
+		};
+		FBC0A0D92CC98ECF00F32528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T4AZ473ZT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanfaucett.BabyVision3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyVision3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BabyVision3";
+			};
+			name = Release;
+		};
+		FBC0A0DB2CC98ECF00F32528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T4AZ473ZT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanfaucett.BabyVision3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyVision3;
+			};
+			name = Debug;
+		};
+		FBC0A0DC2CC98ECF00F32528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T4AZ473ZT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanfaucett.BabyVision3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyVision3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC0A0AB2CC98ECE00F32528 /* Build configuration list for PBXProject "BabyVision3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC0A0D22CC98ECF00F32528 /* Debug */,
+				FBC0A0D32CC98ECF00F32528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC0A0D42CC98ECF00F32528 /* Build configuration list for PBXNativeTarget "BabyVision3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC0A0D52CC98ECF00F32528 /* Debug */,
+				FBC0A0D62CC98ECF00F32528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC0A0D72CC98ECF00F32528 /* Build configuration list for PBXNativeTarget "BabyVision3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC0A0D82CC98ECF00F32528 /* Debug */,
+				FBC0A0D92CC98ECF00F32528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC0A0DA2CC98ECF00F32528 /* Build configuration list for PBXNativeTarget "BabyVision3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC0A0DB2CC98ECF00F32528 /* Debug */,
+				FBC0A0DC2CC98ECF00F32528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		FBC0A0E02CC9901700F32528 /* XCLocalSwiftPackageReference "../Dependencies/GPUImage3-main" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../Dependencies/GPUImage3-main";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBC0A0DE2CC98F7400F32528 /* GPUImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GPUImage;
+		};
+		FBC0A0E12CC9901700F32528 /* GPUImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GPUImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FBC0A0A82CC98ECE00F32528 /* Project object */;
+}
